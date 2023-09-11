@@ -69,12 +69,12 @@ if(isset($_FILES['imagem'])) {
     if ($stmt->execute()) {
         echo("
         Imagem enviada com sucesso!
-        <a href='index.php'>Voltar</a>
+        <a href='home.php'>Voltar</a>
             ");
     } else {
         echo("
         Erro ao enviar a imagem.
-        <a href='index.php'>Voltar</a>
+        <a href='home.php'>Voltar</a>
             ");
     }
     
